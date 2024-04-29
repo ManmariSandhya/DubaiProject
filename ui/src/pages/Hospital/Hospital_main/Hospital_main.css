@@ -1,0 +1,42 @@
+.hospital_container{
+    width: 100%;
+}
+
+.hospital_icon_image{
+   height: 50px;
+}
+.hospital_container_part1{
+   width: 99%;
+   margin-top: 50px;
+  
+   
+}
+.services-heading{
+   background-color: #fbfbfb;
+   font-size: 20px;
+   padding: 10px;
+   font-weight: bold;
+   padding-left: 20px;
+   cursor: pointer;
+   color: #111111;
+   font-family: sans-serif;
+   display: inline-block;
+   transition: transform 0.3s ease;
+}
+.services-heading:hover {
+   transform: translateX(20px); 
+   /* Change the value to adjust the distance the text moves */
+   color: white;
+}
+.hospital_container_subpart1{
+  margin-left: 100px;
+}
+.hospital_container_subpart2{
+   margin-left: 100px;
+   margin-top: 20px;
+}
+/* .hospital_main_part{
+   margin-top: 50px;
+   margin-left: 100px;
+  
+} */

@@ -1,0 +1,16 @@
+.atm_background_image {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 0;
+    text-align: left;
+    padding-top: 180px;
+    padding-left: 300px;
+    color: black;
+  
+
+    background-image: url("../../../assets/images/atm.jpg");
+}

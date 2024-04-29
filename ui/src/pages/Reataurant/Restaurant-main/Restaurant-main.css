@@ -1,0 +1,16 @@
+.restaurent_container{
+    width: 100%;
+}
+.hyderabad_restaurent{
+    width: 98%;
+}
+.restaurent_images {
+    height: 500px;
+    width: 100%;
+
+}
+.hyd_title{
+    text-align: center;
+    color: rgb(26, 23, 23);
+    margin-top: 20px;
+}
