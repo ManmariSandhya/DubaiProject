@@ -22,6 +22,7 @@ import { TutorsMainPage } from './pages/Tutors/tutors_mainpage/tutors_mainpage';
 import { SchoolPage } from './pages/Tutors/Schools/Schools';
 import { BankMainPage } from './pages/Bank/Bank_mainpage/Bank_mainpage';
 import { AtmMainPage } from './pages/ATM/atm_mainpage/atm_mainpage';
+import SBIResponsive from './pages/ATM/sbi_bank/sbi_bank';
 
 
 
@@ -30,28 +31,29 @@ import { AtmMainPage } from './pages/ATM/atm_mainpage/atm_mainpage';
 function App() {
   return (
     <>
-   
+
       <Header />
-     
+
       <Routes>
         <Route path='/' element={<Home />} />
-       <Route path='/mainpage' element={<MainPageComponent></MainPageComponent>}></Route>
+        <Route path='/mainpage' element={<MainPageComponent></MainPageComponent>}></Route>
         <Route path='/register' element={<Register />} />
         <Route path='/edit/:id' element={<Edit />} />
         <Route path='/userprofile/:id' element={<Profile />} />
         <Route path="/restaurant-main" element={<RestaurantMainComponent></RestaurantMainComponent>}></Route>
-              <Route path="/biryani_restaurents" element={<BiryaniComponent></BiryaniComponent>}></Route>
-              <Route path="/haleem_restaurents" element={<HaleemComponent></HaleemComponent>}></Route>
+        <Route path="/biryani_restaurents" element={<BiryaniComponent></BiryaniComponent>}></Route>
+        <Route path="/haleem_restaurents" element={<HaleemComponent></HaleemComponent>}></Route>
 
-              <Route path="/hospital_main" element={<HospitalMainComponent></HospitalMainComponent>}></Route>
-              <Route path="/rainbow_hospital" element={<ChildrenHospitalComponent></ChildrenHospitalComponent>}></Route>
-              <Route path="/hospital_list" element={<HospitalListComponent></HospitalListComponent>}></Route>
-              <Route path="/hotel_main" element={<HotelMainComponent></HotelMainComponent>}></Route>
-              <Route path="/golkonda_hotel" element={<GolcondaHotelComponent></GolcondaHotelComponent>}></Route>
-              <Route path="/tutors" element={<TutorsMainPage></TutorsMainPage>}></Route>
-              <Route path="/school" element={<SchoolPage></SchoolPage>}></Route>
-              <Route path="/bank" element={<BankMainPage></BankMainPage>}></Route>
-              <Route path='/atm' element={<AtmMainPage></AtmMainPage>}></Route>
+        <Route path="/hospital_main" element={<HospitalMainComponent></HospitalMainComponent>}></Route>
+        <Route path="/rainbow_hospital" element={<ChildrenHospitalComponent></ChildrenHospitalComponent>}></Route>
+        <Route path="/hospital_list" element={<HospitalListComponent></HospitalListComponent>}></Route>
+        <Route path="/hotel_main" element={<HotelMainComponent></HotelMainComponent>}></Route>
+        <Route path="/golkonda_hotel" element={<GolcondaHotelComponent></GolcondaHotelComponent>}></Route>
+        <Route path="/tutors" element={<TutorsMainPage></TutorsMainPage>}></Route>
+        <Route path="/school" element={<SchoolPage></SchoolPage>}></Route>
+        <Route path="/bank" element={<BankMainPage></BankMainPage>}></Route>
+        <Route path='/atm' element={<AtmMainPage></AtmMainPage>}></Route>
+        {/* <Route path='sbi_atm' element={<SBIResponsive></SBIResponsive>}></Route> */}
       </Routes>
       {/* <Footer></Footer> */}
     </>

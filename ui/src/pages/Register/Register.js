@@ -135,7 +135,7 @@ const Register = () => {
       {
         showspin ? <Spiner /> : <div className="container contains">
           <h3 className='text-center ' style={{ color: "grey" }}>Register your Service here...</h3>
-          <Card className='shadow mt-3 p-3  color-card'>
+          <Card className=' mt-3 p-3  color-card'>
             <div className=" text-center d-flex im " style={{ height: "250px", width: "250px" }}><h4>Image</h4>
               <img class="img-fluid " src={preview ? preview : "/man.png"} alt="img" />
             </div>

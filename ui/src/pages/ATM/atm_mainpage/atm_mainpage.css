@@ -1,5 +1,7 @@
-.atm_background_image {
 
+
+/* Styles for large screens */
+.atm_background_image {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -10,7 +12,83 @@
     padding-top: 180px;
     padding-left: 300px;
     color: black;
-  
-
     background-image: url("../../../assets/images/atm.jpg");
+}
+.atm{
+    font-size:150px;
+    font-family: fantasy;
+}
+.near_me{
+    font-size: 60px;
+    font-family:inherit ;
+}
+.atm_container_subpart1,
+.atm_container_subpart2 {
+    margin-left: 100px;
+}
+
+/* Styles for medium-sized screens */
+@media (max-width: 992px) {
+    .atm_background_image {
+        padding-left: 100px; /* Adjust padding for smaller screens */
+        height: 400px;
+    }
+
+    .atm_container_subpart1,
+    .atm_container_subpart2 {
+        margin-left: 50px; /* Reduce margin for smaller screens */
+    }
+    .atm{
+        font-size:100px;
+        font-family: fantasy;
+        margin-top: -10px;
+    }
+    .near_me{
+        font-size: 40px;
+        font-family:inherit ;
+    }
+    
+}
+
+/* Styles for small screens */
+@media (max-width: 768px) {
+    .atm_background_image {
+        padding-left: 50px; /* Further adjust padding for smaller screens */
+    }
+
+    .atm_container_subpart1,
+    .atm_container_subpart2 {
+        margin-left: 20px; /* Reduce margin even more for smaller screens */
+    }
+    .atm{
+        font-size:100px;
+        font-family: fantasy;
+        margin-top: -10px;
+    }
+    .near_me{
+        font-size: 40px;
+        font-family:inherit ;
+    }
+}
+
+/* Styles for extra small screens */
+@media (max-width: 576px) {
+    .atm_background_image {
+        padding-left: 20px; /* Adjust padding for extra small screens */
+      
+    }
+
+    .atm_container_subpart1,
+    .atm_container_subpart2 {
+        margin-left: 10px; /* Reduce margin for extra small screens */
+    }
+    .atm{
+        font-size:100px;
+        font-family: fantasy;
+        margin-top: -50px;
+    }
+    .near_me{
+        font-size: 40px;
+        font-family:inherit ;
+    }
 }

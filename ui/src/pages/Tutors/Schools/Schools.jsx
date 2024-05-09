@@ -16,7 +16,7 @@ export function SchoolPage() {
     return (
         <div>
             <div>
-                <h2 className='top-hospital-main-heading'>Top Schools in Hyderabad</h2>
+                <h2 className='top-hospital-main-heading' style={{textAlign:'center'}}>Top Schools in Hyderabad</h2>
             </div>
            
             <div className="containerr">

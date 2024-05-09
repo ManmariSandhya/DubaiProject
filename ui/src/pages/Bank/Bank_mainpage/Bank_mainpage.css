@@ -1,20 +1,51 @@
+
+
 .bank_background_image {
-  
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
-    margin-top: 10px;
-    width: 100%;
-    margin-left: 0;
-    text-align: center;
-    padding-top: 180px;
-    padding-left: 15px;
-    color: black;
-   
-    background-image: url("../../../assets/images/banking2.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  padding-top: 180px;
+  padding-left: 15px;
+  color: black;
+  background-image: url("../../../assets/images/banking2.avif");
 }
-.bank_container{
-    margin-left: 250px;
-    margin-top: 20px;
+
+.bank_container {
+  margin-top: 100px;
   width: 80%;
+  margin: auto;
+}
+.bank_sub_img{
+  height: 100px;
+  width: 100px;
+  margin-left: 150px;
+  margin-top: 40px;
+}
+
+@media (max-width: 992px) {
+  .bank_container .col-lg-4 {
+    margin-bottom: 50px;
+  }
+  .bank_sub_img{
+    margin-left: 50px;
+  }
+  .bank_background_image {
+    width: ;
+  }
+}
+
+@media (max-width: 768px) {
+  .bank_container .col-lg-4 {
+    margin-bottom: 50px;
+  }
+  .bank_sub_img{
+    margin-left: 130px;
+  }
+  .bank_background_image {
+    
+    height: 500px;
+  }
 }

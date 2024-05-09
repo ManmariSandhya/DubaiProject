@@ -1,12 +1,8 @@
-import './Restaurant-main.css';
+import React from "react";
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { Link } from 'react-router-dom';
-
-import restaurent_main_carousel_image1 from '../../../assets/images/restaurent_main_carousel_image1.jpg';
-import restaurent_main_carousel_image2 from '../../../assets/images/restaurent_main_carousel_image2.jpg';
-import restaurent_main_carousel_image3 from '../../../assets/images/restaurent_main_carousel_image3.jpg';
+import { Link } from "react-router-dom";
 
 import biryani from '../../../assets/images/biryani.jpg';
 import phirni from '../../../assets/images/phirni.jpg';
@@ -19,86 +15,52 @@ import nihari from '../../../assets/images/nihari.webp';
 import Double_ka_Meetha from '../../../assets/images/Double_ka_Meetha.webp';
 import samosa from '../../../assets/images/samosa.jpg';
 
-
-export function RestaurantMainComponent() {
-    var settings = {
-        dots: true,
-        infinite: false,
-        speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 5,
-        initialSlide: 0,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              initialSlide: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-      };
-    return (
-        <div>
-            <div className='restaurent_container'>
-                <div id="carouselExampleCaptions" className="carousel slide">
-                    <div className="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-
-                    </div>
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <img src={restaurent_main_carousel_image1} className="d-block  restaurent_images  " alt="..." />
-                        </div>
-                        <div className="carousel-item">
-                            <img src={restaurent_main_carousel_image2} className="d-block restaurent_images" alt="..." />
-                        </div>
-                        <div className="carousel-item">
-                            <img src={restaurent_main_carousel_image3} className="d-block restaurent_images" alt="..." />
-                        </div>
-                    </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-            <div >
-                <h2 className='hyd_title'>Restaurents In Hyderabad</h2>
-                <div className='hyderabad_restaurent'>
-                    <h4 style={{ marginLeft: '20px' ,textAlign:'center'}}>Browse Hyderabad Famous Food</h4>
-                    <br></br>
-                    <Slider {...settings} style={{ marginLeft: '100px' }}>
+function SBIResponsive() {
+  var settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
+  return (
+    <div className="slider-container">
+      <Slider {...settings} style={{ marginLeft: '40px' , marginTop:'20px'}}>
                         <div>
-                            <Link to="/biryani_restaurents" style={{ textDecoration: 'none' }}>
+                            <Link to="" style={{ textDecoration: 'none' }}>
                                 <div className="col-12 col-lg-3 col-md-6 col-sm-12">
                                     <div className="card mx-3 card-1" style={{ height: '200px', width: '200px' }}>
                                         <img className="card-img-top" src={biryani} alt="tutor" />
                                         <div className="card-body">
-                                            <h5 className="card-titles" style={{ textAlign: "center" }}>Hyderabad Biryani</h5>
+                                            <h5 className="card-titles" style={{ textAlign: "center" }}>SBI</h5>
+                                            <h6 className="card-titles" style={{ textAlign: "center" }}>Hyderabad</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -198,9 +160,8 @@ export function RestaurantMainComponent() {
                         </div>
 
                     </Slider>
-
-                </div>
-            </div>
-        </div>
-    )
+    </div>
+  );
 }
+
+export default SBIResponsive;

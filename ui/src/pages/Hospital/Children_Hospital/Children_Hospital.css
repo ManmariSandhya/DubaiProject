@@ -1,11 +1,10 @@
 .children_main_container{
-  
-    margin-top: 30px;
-    margin-left: 300px;
+  margin-top: 15px;
+    
 }
 .children1{
-    width: 1000px;
-    height: 500px;
+    /* width: 1000px;
+    height: 500px; */
     
     border-radius: 10px;
     margin-left: 300px;
@@ -24,7 +23,7 @@
 }
 .dropdown{
     position: relative;
-   width: 1000px;
+   /* width: 1000px; */
 }
 .dropdown-toggle{
     color: black;
@@ -40,7 +39,7 @@
     left: 0;
     list-style: none;
     border: none;
-   /* display: inline; */
+  
 }
 .menu-item:hover{
     cursor: pointer;
@@ -49,10 +48,68 @@
     
 }
 .menu-item-list:hover{
-/* cursor: pointer; */
+
 color: black;
 }
 button:focus~.dropdown-menu{
     display: block;
     
 }
+
+
+/* Styles for small screens (Mobile) */
+@media (max-width: 576px) {
+    .children_main_container {
+        margin-left: 10px; /* Adjust margin for smaller screens */
+        padding: 10px;
+    }
+
+    .children1 {
+        width: 100%; /* Make image responsive */
+        height: auto; /* Make image responsive */
+        margin-left: 0; /* Remove left margin for smaller screens */
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    .rainbow_hospital_ratings {
+        margin-left: 10px; /* Adjust margin for smaller screens */
+    }
+  
+    .dropdown-toggle {
+        padding: .5rem 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .dropdown-menu {
+        top: 100%; /* Adjust dropdown menu position */
+        left: -10px; /* Adjust dropdown menu position */
+        width: calc(100% + 20px); /* Make dropdown menu wider */
+    }
+}
+
+/* Styles for medium screens (Tablet) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .children_main_container {
+        margin-left: 50px; /* Adjust margin for medium screens */
+    }
+
+    .children1 {
+        width: 80%; /* Adjust image width for medium screens */
+        margin-left: 50px; /* Adjust image margin for medium screens */
+    }
+}
+
+/* Styles for large screens (Desktop) */
+@media (min-width: 993px) {
+    .children_main_container {
+        margin-left: 302px; /* Adjust margin for larger screens */
+    }
+
+    .children1 {
+        width: 1000px; /* Adjust image width for larger screens */
+        margin-left: 300px; /* Adjust image margin for larger screens */
+    }
+}
+
+
+

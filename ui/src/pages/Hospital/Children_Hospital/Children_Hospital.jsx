@@ -19,10 +19,10 @@ export function ChildrenHospitalComponent() {
                 <button style={{ padding: '8px', borderRadius: '8px' }}><Share></Share>  Share</button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <button style={{ padding: '8px', borderRadius: '8px' }}><SuitHeartFill></SuitHeartFill>  Favorites</button>
                 <div className='mt-5'>
-                {/* children details */}
+                    {/* children details */}
                     <span>
                         <div className='dropdown'>
-                            <button className='drowpdown-toggle menu-item' style={{border:'none',background:'white',fontSize:'20px'}}>
+                            <button className='drowpdown-toggle menu-item' style={{ border: 'none', background: 'white', fontSize: '20px' }}>
                                 <span className='item-txt'>Overview</span>
                             </button>
                             <ul className='dropdown-menu'>
@@ -32,17 +32,17 @@ export function ChildrenHospitalComponent() {
                                 <p className='menu-item-list'>
                                     Rainbow Children's Hospital & BirthRight, located in Banjara Hills, established in 1999, stands as a distinguished medical institution holding NABH and JCI accreditation. Boasting over 250 beds, this facility is an all-encompassing spectrum of specialized care within the disciplines of Pediatrics, Neonatology, Obstetrics, Gynecology and Fertility. The institution is integrated with cutting-edge technology and fortified by world-class infrastructure. Its scope extends to superior tertiary and quaternary care, even encompassing pediatric organ transplants. The hospital's advanced intensive care units are primed to respond to critical emergencies, furnished with state-of-the-art provisions such as CPAP, advanced ventilation, and transportation services. </p>
                                 <p><b>Address:</b> Road No. 2, beside park Hyatt, Sri Nagar Colony, Kamalapuri Colony, Banjara Hills, Hyderabad, Telangana 500034</p>
-                                 <p><b> Areas served: </b>  Jubilee Hills and nearby areas</p>
-                                 <p><b>  Hours:</b> 
+                                <p><b> Areas served: </b>  Jubilee Hills and nearby areas</p>
+                                <p><b>  Hours:</b>
                                     Open 24 hours</p>
-                                  <p><b>  Phone: </b>080 3535 8317</p>
+                                <p><b>  Phone: </b>080 3535 8317</p>
                             </ul>
                         </div>
                     </span>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     <span>
                         <div className='dropdown ml-5'>
-                            <button className='drowpdown-toggle menu-item' style={{border:'none',background:'white',fontSize:'20px'}}>
+                            <button className='drowpdown-toggle menu-item' style={{ border: 'none', background: 'white', fontSize: '20px' }}>
                                 <span className='item-txt'>We Are Special In</span>
                             </button>
                             <ul className='dropdown-menu'>
@@ -58,7 +58,7 @@ export function ChildrenHospitalComponent() {
                         &nbsp;&nbsp;&nbsp;&nbsp;</span>
                     <span>
                         <div className='dropdown ml-5'>
-                            <button className='drowpdown-toggle menu-item' style={{border:'none',background:'white',fontSize:'20px'}} >
+                            <button className='drowpdown-toggle menu-item' style={{ border: 'none', background: 'white', fontSize: '20px' }} >
                                 <span className='item-txt'>Reviews</span>
                             </button>
                             <ul className='dropdown-menu'>
@@ -96,13 +96,13 @@ export function ChildrenHospitalComponent() {
                                 <div className='mt-5'>
                                     <span style={{ border: '1px solid', borderRadius: '10px', padding: '10px', textAlign: 'center' }}><b>Write a Review</b></span>
                                 </div>
-                              
+
                             </ul>
                         </div>&nbsp;&nbsp;&nbsp;&nbsp;
                     </span>
                     <span>
                         <div className='dropdown ml-5'>
-                            <button className='drowpdown-toggle menu-item' style={{border:'none',background:'white',fontSize:'20px'}}>
+                            <button className='drowpdown-toggle menu-item' style={{ border: 'none', background: 'white', fontSize: '20px' }}>
                                 <span className='item-txt'>Book appointment</span>
                             </button>
                             <ul className='dropdown-menu'>

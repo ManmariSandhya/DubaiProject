@@ -9,6 +9,7 @@
    width: 99%;
    margin-top: 50px;
   
+  
    
 }
 .services-heading{
@@ -25,18 +26,44 @@
 }
 .services-heading:hover {
    transform: translateX(20px); 
-   /* Change the value to adjust the distance the text moves */
+ 
    color: white;
 }
 .hospital_container_subpart1{
-  margin-left: 100px;
+  margin-left: 200px;
 }
 .hospital_container_subpart2{
    margin-left: 100px;
    margin-top: 20px;
 }
-/* .hospital_main_part{
-   margin-top: 50px;
-   margin-left: 100px;
-  
-} */
+
+/* Styles for large screens */
+.hospital_container_subpart1,
+.hospital_container_subpart2 {
+    margin-left: 100px;
+}
+
+/* Styles for medium-sized screens */
+@media (max-width: 992px) {
+    .hospital_container_subpart1,
+    .hospital_container_subpart2 {
+        margin-left: 40px; /* Reduce margin for smaller screens */
+    }
+}
+
+/* Styles for small screens */
+@media (max-width: 768px) {
+    .hospital_container_subpart1,
+    .hospital_container_subpart2 {
+        margin-left: 20px; /* Reduce margin even more for smaller screens */
+    }
+}
+
+/* Styles for extra small screens */
+@media (max-width: 576px) {
+    .hospital_container_subpart1,
+    .hospital_container_subpart2 {
+        margin-left: 10px; /* Adjust margin for extra small screens */
+    }
+}
+

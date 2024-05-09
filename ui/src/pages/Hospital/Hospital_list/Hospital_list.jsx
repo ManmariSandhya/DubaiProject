@@ -11,16 +11,43 @@ import vasavi_hospital from '../../../assets/images/vasavi_hospital.png';
 import Medicover_hospital from '../../../assets/images/Medicover_hospital.webp';
 import swathi_hospital from '../../../assets/images/swathi_hospital.jpg';
 export function HospitalListComponent() {
-    const settings = {
+    var settings = {
         dots: true,
-        infinite: true,
+        infinite: false,
         speed: 500,
-        slidesToShow: 6,
-        slidesToScroll: 6
-    };
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        initialSlide: 0,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      };
     return (
         <div style={{marginTop:'50px',width:'98%'}}>
-            <Slider {...settings} style={{ marginLeft: '40px' }}>
+            <Slider {...settings} style={{ marginLeft: '100px' }}>
                 <div>
                     <Link to="/rainbow_hospital" style={{ textDecoration: 'none' }}>
                         <div className="col-12 col-lg-3 col-md-6 col-sm-12">

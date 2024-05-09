@@ -7,59 +7,51 @@ import tutor4 from '../../../assets/images/tutor4.webp';
 import tutor5 from '../../../assets/images/tutor5.webp';
 import tutor6 from '../../../assets/images/tutor6.webp';
 import { Link } from 'react-router-dom';
+
+
+
 export function TutorsMainPage() {
     return (
-        <div>
-            <div className='tutuor_container'>
-                <img src={tutor1} style={{ textAlign: 'center', marginTop: '30px', }}></img>
-            </div>
+        <div >
+            <div className='tutuor_container'></div>
+            <img src={tutor1} className='tutuor_img' ></img>
+
             <div className='tutuor_container1'>
-                <div style={{ backgroundColor: 'gainsboro', width: '1000px' }} className='row'>
-                    <div className='col-1'>
-                        <img src={tutor2} ></img>
-                    </div>
-
-                    <div className='col-10 mt-3 ' >
-                        <Link to="/school" style={{ textDecoration: 'none', color: 'black' }}>
-                            Schools
-                        </Link>
-                    </div>
-
+                
+                <div className=' mt-2'>
+                    <span>
+                        <img src={tutor2}></img>
+                    </span>  &nbsp; &nbsp; &nbsp;
+                   <Link to="/school" style={{textDecoration:'none',color:'black'}}><span>School</span></Link> 
                 </div>
-                <div className='row mt-3'>
-                    <div className='col-1'>
+                <div className=' mt-2'>
+                    <span>
                         <img src={tutor3}></img>
-                    </div>
-                    <div className='col-10 mt-3'>
-                        Colleges
-                    </div>
+                    </span>  &nbsp; &nbsp; &nbsp;
+                    <span> College</span>
                 </div>
-                <div style={{ backgroundColor: 'gainsboro', width: '1000px' }} className='row mt-2'>
-                    <div className='col-1'>
+                <div className=' mt-2'>
+                    <span>
                         <img src={tutor6}></img>
-                    </div>
-                    <div className='col-10 mt-3'>
-                        Hobbies
-                    </div>
+                    </span>  &nbsp; &nbsp; &nbsp;
+                    <span>Hobbies</span>
                 </div>
-                <div className='row mt-3'>
-                    <div className='col-1'>
+                <div className=' mt-2'>
+                    <span>
                         <img src={tutor4}></img>
-                    </div>
-                    <div className='col-10 mt-3'>
-                        Coaching
-                    </div>
+                    </span>  &nbsp; &nbsp; &nbsp;
+                    <span>Caoching</span>
                 </div>
-                <div style={{ backgroundColor: 'gainsboro', width: '1000px' }} className='row mt-2'>
-                    <div className='col-1'>
-                        <img src={tutor5} ></img>
-                    </div>
-                    <div className='col-10 mt-3'>
-                        Vocational Training
-                    </div>
+                <div className=' mt-2'>
+                    <span>
+                        <img src={tutor5}></img>
+                    </span>  &nbsp; &nbsp; &nbsp;
+                    <span>Vocational Training</span>
                 </div>
-
             </div>
         </div>
     )
 }
+
+
+

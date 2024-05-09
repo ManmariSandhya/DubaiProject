@@ -45,90 +45,71 @@ export function HospitalMainComponent() {
             </div>
             <div className='hospital_container_part1'>
                 <div className='row hospital_container_subpart1'>
-                    <div className='col-3'>
+                    <div className='col-4'>
                         <div className='box-1 bg-white rounded '>
 
                             <img className='hospital_icon_image' src={hospital_icon3}></img>
                             <Link to="/hospital_list">
-                                <p className='services-heading'>Childrens Hospital</p>
+                                <p className='services-heading' style={{color:'GrayText'}}>Childrens Hospital</p>
                             </Link>
 
                         </div>
                     </div>
-                    <div className='col-3'>
+                    <div className='col-4'>
                         <div className='box-1 bg-white rounded '>
 
                             <img className='hospital_icon_image' src={hospital_icon4}></img>
                             <Link to="/hospitals-services">
-                                <p className='services-heading'>ENT Hospitals</p>
+                                <p className='services-heading' style={{color:'GrayText'}}>ENT Hospitals</p>
                             </Link>
 
                         </div>
                     </div>
-                    <div className='col-3'>
+                    <div className='col-4'>
                         <div className='box-1 bg-white rounded '>
 
                             <img className='hospital_icon_image' src={hospital_icon5}></img>
                             <Link to="/hospitals-services">
-                                <p className='services-heading'>Eyes Hospitals</p>
+                                <p className='services-heading' style={{color:'GrayText'}}>Eyes Hospitals</p>
                             </Link>
 
                         </div>
 
                     </div>
-                    <div className='col-3'>
-                        <div className='box-1 bg-white rounded '>
-
-                            <img className='hospital_icon_image' src={hospital_icon5}></img>
-                            <Link to="/hospitals-services">
-                                <p className='services-heading'>Eyes Hospitals</p>
-                            </Link>
-
-                        </div>
-
-                    </div>
+                    
                 </div>
                 <div className='row hospital_container_subpart2'>
-                    <div className='col-3'>
+                    <div className='col-4'>
                     <div className='box-1 bg-white rounded '>
                               
                                     <img className='hospital_icon_image' src={hospital_icon6}></img>
                                     <Link to="/hospitals-services">
-                                        <p className='services-heading'>Mental Hospitals</p>
+                                        <p className='services-heading' style={{color:'GrayText'}}>Mental Hospitals</p>
                                     </Link>
                                
                             </div>
                     </div>
-                    <div className='col-3'>
+                    <div className='col-4'>
                     <div className='box-1 bg-white rounded '>
                                 
                                     <img className='hospital_icon_image' src={hospital_icon1}></img>
                                     <Link to="/hospitals-services">
-                                        <p className='services-heading'> Multispeciality Hospitals</p>
+                                        <p className='services-heading' style={{color:'GrayText'}}> Multispeciality Hospitals</p>
                                     </Link>
                               
                             </div>
                     </div>
-                    <div className='col-3'>
+                    <div className='col-4'>
                     <div className='box-1 bg-white rounded '>
                                 
                                     <img className='hospital_icon_image' src={hospital_icon1}></img>
                                     <Link to="/hospitals-services">
-                                        <p className='services-heading'>Private Hospital</p>
+                                        <p className='services-heading' style={{color:'GrayText'}}>Private Hospital</p>
                                     </Link>
                              
                             </div>
                     </div>
-                    <div className='col-3'>
-                    <div className='box-1 bg-white rounded '>
-                              
-                                    <img className='hospital_icon_image' src={hospital_icon1}></img>
-                                    <Link to="/hospitals-services">
-                                        <p className='services-heading'>Public Hospitals</p>
-                                    </Link>
-                             
-                            </div>
-                    </div>
+                    
                 </div>
             </div>
             

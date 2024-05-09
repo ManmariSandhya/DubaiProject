@@ -7,8 +7,16 @@
 .restaurent_images {
     height: 500px;
     width: 100%;
-
+   
 }
+@media only screen and (max-width: 600px) {
+    .restaurent_images {
+        height: 300px;
+        width: 100%;
+        margin-top: 10px;
+       
+    }
+  }
 .hyd_title{
     text-align: center;
     color: rgb(26, 23, 23);

@@ -197,7 +197,7 @@ export function HomeCards() {
                   <div className="card-body">
                     <h4 className="card-title" style={{ textAlign: "center" }}>{item.heading4}</h4>
                     <h6 className="card-text mt-4" style={{ textAlign: "center" }}>{item.heading6}</h6>
-                    <a href="/restaurant" className="btn btn-primary cards_button " style={{ marginLeft: '36%' }}>{item.atag}</a>
+                    <a href="/restaurant" className="btn btn-primary cards_button " style={{ marginLeft: '36%' , color:'    color: #e73a34;' }}>{item.atag}</a>
                   </div>
 
                   <div style={{ textAlign: 'center', marginLeft: '0px' }}>
