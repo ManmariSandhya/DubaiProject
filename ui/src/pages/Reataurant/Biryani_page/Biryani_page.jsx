@@ -13,10 +13,10 @@ export function BiryaniComponent() {
     return (
         <div>
             <div>
-                <h2 className='top-hospital-main-heading' style={{textAlign:'center'}}>Best Biryani Restaurents in Hyderabad - Order Food Online</h2>
+                <h2 className='top-hospital-main-heading mt-3' style={{textAlign:'center'}}>Best Biryani Restaurents in Hyderabad - Order Food Online</h2>
             </div>
 
-            <div className="containerr">
+            <div className="containerr mt-3">
                 <div  >
                     <img className="image-1" src={biryani4} width="300px" height="200px" alt="Dubai" />
                 </div>
