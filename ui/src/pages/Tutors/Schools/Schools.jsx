@@ -16,10 +16,10 @@ export function SchoolPage() {
     return (
         <div>
             <div>
-                <h2 className='top-hospital-main-heading' style={{textAlign:'center'}}>Top Schools in Hyderabad</h2>
+                <h2 className='top-hospital-main-heading' style={{textAlign:'center',marginTop:'30px'}}>Top Schools in Hyderabad</h2>
             </div>
            
-            <div className="containerr">
+            <div className="containerr mt-5">
                 <div  >
                     <img className="image-1" src={tut1} width="300px" height="200px" alt="Dubai" />
                 </div>
@@ -31,13 +31,13 @@ export function SchoolPage() {
                     <p>village Navi Dubai Vashi, Navi Dubai.<b>"Immediate availability"</b> 10 suggestions</p>
                     {/* <button className='hos-button' style={{ marginBottom: '5px', cursor: 'pointer' }}>Hospitals</button> */}
                     <br />
-                    <button className='shownumber-1' style={{ backgroundColor: 'green', color: 'aliceblue', cursor: 'pointer' }}>
+                    <button className='shownumber-1'style={{ backgroundColor: '#6ad4cf', color: 'white', cursor: 'pointer' ,border:'none',padding:'5px',borderRadius:'5px' }}>
                         <b>Show Number</b>
-                    </button>
-                    <button className='bookappointment-1' style={{ backgroundColor: 'blue', color: 'white', cursor: 'pointer' }}>
+                    </button> &nbsp;
+                    <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
                         <b>Book Appointment</b>
-                    </button>
-                    <button className='check-1' style={{ backgroundColor: 'white', color: 'black', cursor: 'pointer' }}>Chat</button>
+                    </button>&nbsp;
+                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}>Chat</button>
                 </div>
             </div>
             <br></br>
@@ -53,13 +53,13 @@ export function SchoolPage() {
                     <p>village Navi Dubai Vashi, Navi Dubai.<b>"Immediate availability"</b> 10 suggestions</p>
                     {/* <button className='hos-button' style={{ marginBottom: '5px', cursor: 'pointer' }}>Hospitals</button> */}
                     <br />
-                    <button className='shownumber-1' style={{ backgroundColor: 'green', color: 'aliceblue', cursor: 'pointer' }}>
+                    <button className='shownumber-1' style={{ backgroundColor: '#6ad4cf', color: 'white', cursor: 'pointer' ,border:'none',padding:'5px',borderRadius:'5px' }}>
                         <b>Show Number</b>
-                    </button>
-                    <button className='bookappointment-1' style={{ backgroundColor: 'blue', color: 'white', cursor: 'pointer' }}>
+                    </button>&nbsp;
+                    <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
                         <b>Book Appointment</b>
-                    </button>
-                    <button className='check-1' style={{ backgroundColor: 'white', color: 'black', cursor: 'pointer' }}>Chat</button>
+                    </button>&nbsp;
+                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}>Chat</button>
                 </div>
             </div>
             <br></br>
@@ -75,13 +75,13 @@ export function SchoolPage() {
                     <p>village Navi duabi Vashi, Navi dubai.<b>"Immediate availability"</b> 10 suggestions</p>
                     {/* <button className='hos-button' style={{ marginBottom: '5px', cursor: 'pointer' }}>Hospitals</button> */}
                     <br />
-                    <button className='shownumber-1' style={{ backgroundColor: 'green', color: 'aliceblue', cursor: 'pointer' }}>
+                    <button className='shownumber-1' style={{ backgroundColor: '#6ad4cf', color: 'white', cursor: 'pointer' ,border:'none',padding:'5px',borderRadius:'5px' }}>
                         <b>Show Number</b>
-                    </button>
-                    <button className='bookappointment-1' style={{ backgroundColor: 'blue', color: 'white', cursor: 'pointer' }}>
+                    </button>&nbsp;
+                    <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
                         <b>Book Appointment</b>
-                    </button>
-                    <button className='check-1' style={{ backgroundColor: 'white', color: 'black', cursor: 'pointer' }}>Chat</button>
+                    </button>&nbsp;
+                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}>Chat</button>
                 </div>
             </div>
             <br></br>
@@ -97,13 +97,13 @@ export function SchoolPage() {
                     <p>village Navi dubai Vashi, Navi duabi.<b>"Immediate availability"</b> 10 suggestions</p>
                     {/* <button className='hos-button' style={{ marginBottom: '5px', cursor: 'pointer' }}>Hospitals</button> */}
                     <br />
-                    <button className='shownumber-1' style={{ backgroundColor: 'green', color: 'aliceblue', cursor: 'pointer' }}>
+                    <button className='shownumber-1' style={{ backgroundColor: '#6ad4cf', color: 'white', cursor: 'pointer' ,border:'none',padding:'5px',borderRadius:'5px' }}>
                         <b>Show Number</b>
-                    </button>
-                    <button className='bookappointment-1' style={{ backgroundColor: 'blue', color: 'white', cursor: 'pointer' }}>
+                    </button>&nbsp;
+                    <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
                         <b>Book Appointment</b>
-                    </button>
-                    <button className='check-1' style={{ backgroundColor: 'white', color: 'black', cursor: 'pointer' }}>Chat</button>
+                    </button>&nbsp;
+                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}>Chat</button>
                 </div>
             </div>
         </div>

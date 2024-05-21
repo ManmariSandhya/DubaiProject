@@ -5,6 +5,8 @@ import "./Bank_mainpage.css";
 import money_saving from "../../../assets/images/money_saving.png";
 import online_shopping from "../../../assets/images/online_shopping.png";
 import credit_card from "../../../assets/images/credit_card.png";
+import { Link } from "react-router-dom";
+
 
 export function BankMainPage() {
     return (
@@ -20,9 +22,12 @@ export function BankMainPage() {
                     magni.
                 </p>
             </div>
+            
             <div className="bank_container">
                 <div className="row">
+                  
                     <div className="col-lg-4 col-md-4 col-sm-12">
+                    <Link to="/money_saving" style={{textDecoration:'none',color:'black'}}>
                         <img
                             src={money_saving}  className="bank_sub_img"
                            
@@ -31,7 +36,9 @@ export function BankMainPage() {
                         <p className="text-center mt-2">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                         </p>
+                        </Link>
                     </div>
+                 
                     <div className="col-lg-4 col-md-4 col-sm-12">
                         <img
                             src={online_shopping}
@@ -54,6 +61,7 @@ export function BankMainPage() {
                     </div>
                 </div>
             </div>
+           
         </div>
     );
 }

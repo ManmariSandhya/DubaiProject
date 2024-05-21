@@ -45,7 +45,7 @@ export function HospitalMainComponent() {
             </div>
             <div className='hospital_container_part1'>
                 <div className='row hospital_container_subpart1'>
-                    <div className='col-4'>
+                    <div className=' col-4 '>
                         <div className='box-1 bg-white rounded '>
 
                             <img className='hospital_icon_image' src={hospital_icon3}></img>
@@ -55,7 +55,7 @@ export function HospitalMainComponent() {
 
                         </div>
                     </div>
-                    <div className='col-4'>
+                    <div className='col-4 '>
                         <div className='box-1 bg-white rounded '>
 
                             <img className='hospital_icon_image' src={hospital_icon4}></img>
@@ -65,7 +65,7 @@ export function HospitalMainComponent() {
 
                         </div>
                     </div>
-                    <div className='col-4'>
+                    <div className='col-4 '>
                         <div className='box-1 bg-white rounded '>
 
                             <img className='hospital_icon_image' src={hospital_icon5}></img>
@@ -79,7 +79,7 @@ export function HospitalMainComponent() {
                     
                 </div>
                 <div className='row hospital_container_subpart2'>
-                    <div className='col-4'>
+                    <div className=' col-4'>
                     <div className='box-1 bg-white rounded '>
                               
                                     <img className='hospital_icon_image' src={hospital_icon6}></img>
@@ -89,17 +89,17 @@ export function HospitalMainComponent() {
                                
                             </div>
                     </div>
-                    <div className='col-4'>
-                    <div className='box-1 bg-white rounded '>
+                    <div className='col-4 ' >
+                    <div className='box-1 bg-white rounded ' style={{marginLeft:'26px'}}>
                                 
                                     <img className='hospital_icon_image' src={hospital_icon1}></img>
                                     <Link to="/hospitals-services">
-                                        <p className='services-heading' style={{color:'GrayText'}}> Multispeciality Hospitals</p>
+                                        <p className='services-heading' style={{color:'GrayText'}}> Multi Hospitals</p>
                                     </Link>
                               
                             </div>
                     </div>
-                    <div className='col-4'>
+                    <div className='col-4 '>
                     <div className='box-1 bg-white rounded '>
                                 
                                     <img className='hospital_icon_image' src={hospital_icon1}></img>

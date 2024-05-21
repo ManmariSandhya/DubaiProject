@@ -18,7 +18,8 @@
     }
   }
 .hyd_title{
-    text-align: center;
+  margin-left: 120px;
     color: rgb(26, 23, 23);
-    margin-top: 20px;
+    margin-top: 30px;
+    font-size: 38px;
 }

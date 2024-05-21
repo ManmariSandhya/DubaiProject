@@ -1,12 +1,4 @@
-/* .Main-container{
-    background-color: #fbfafa;
-     height: 300px; 
-    margin-top: -23px;
-}  */
-
-
-
-
+/* 
 .restaurant{
     height: 90px;
     width: 90px;
@@ -30,4 +22,58 @@
     border-radius: 12px;
     padding: 5px;
     text-align: center
+} */
+
+
+.categories-container {
+    margin-left: 30px;
 }
+
+.category-item {
+    text-align: center;
+
+}
+
+.category-link {
+    text-decoration: none;
+    color: black;
+}
+
+.category-img {
+    height: 90px;
+    width: 90px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.category-img:hover {
+    box-shadow: 4px 4px gray;
+}
+
+h6 {
+    margin: 10px 0 0;
+    font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+    .categories-container {
+        margin-left: 0;
+    }
+    
+    .category-item {
+        margin-bottom: 15px;
+    }
+    
+    h1 {
+        font-size: 25px;
+    }
+}
+
+
+
+

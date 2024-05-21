@@ -8,6 +8,7 @@ import biryani3 from '../../../assets/images/biryani3.jpg';
 
 
 import React from 'react';
+import { Chat, GeoAlt, Heart, Phone, Star, StarFill, Table, Telephone } from 'react-bootstrap-icons';
 
 export function BiryaniComponent() {
     return (
@@ -21,20 +22,18 @@ export function BiryaniComponent() {
                     <img className="image-1" src={biryani4} width="300px" height="200px" alt="Dubai" />
                 </div>
                 <div className="text">
-                    <h1 className='roy-head1'>Bawarchi</h1>
-                    <p style={{ cursor: 'pointer' }}>
-                        <b>Trust</b> <a href="#">Verified</a> <button className='top-search' style={{ cursor: 'pointer' }}>Top Search</button>
-                    </p>
-                    <p>village Navi Dubai Vashi, Navi Dubai.<b>"Immediate availability"</b> 10 suggestions</p>
+                    <h1 className='roy-head1'>Bawarchi<Heart style={{marginLeft:'620px'}}></Heart></h1>
+                    <span className='haleem_ratings mt-2'>4.0</span>&nbsp;&nbsp;<Star></Star>   <Star></Star>   <Star></Star>   <Star></Star>   <Star></Star>
+                    <p className='mt-3'> <GeoAlt></GeoAlt> Mumbai, Maharashtra</p>
                     {/* <button className='hos-button' style={{ marginBottom: '5px', cursor: 'pointer' }}>Hospitals</button> */}
                     <br />
-                    <button className='shownumber-1' style={{ backgroundColor: 'green', color: 'aliceblue', cursor: 'pointer' }}>
-                        <b>Show Number</b>
-                    </button>
-                    <button className='bookappointment-1' style={{ backgroundColor: 'blue', color: 'white', cursor: 'pointer' }}>
-                        <b>Book Appointment</b>
-                    </button>
-                    <button className='check-1' style={{ backgroundColor: 'white', color: 'black', cursor: 'pointer' }}>Chat</button>
+                    <button className='shownumber-1' style={{ backgroundColor: '#6ad4cf', color: 'white', cursor: 'pointer' ,border:'none',padding:'5px',borderRadius:'5px' }}>
+                        <b> <Telephone></Telephone> Show Number</b>
+                    </button>&nbsp;
+                    <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
+                        <b><Table></Table> Book Table</b>
+                    </button>&nbsp;
+                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}><Chat></Chat> Chat</button>
                 </div>
             </div>
             <br></br>
@@ -43,20 +42,18 @@ export function BiryaniComponent() {
                     <img className="image-1" src={biryani1} width="300px" height="200px" alt="Dubai" />
                 </div>
                 <div className="text">
-                    <h1>Paradise </h1>
-                    <p style={{ cursor: 'pointer' }}>
-                        <b>Trust</b> <a href="#">Verified</a> <button className='top-search' style={{ cursor: 'pointer' }}>Top Search</button>
-                    </p>
-                    <p>village Navi Dubai Vashi, Navi Dubai.<b>"Immediate availability"</b> 10 suggestions</p>
+                    <h1>Paradise <Heart style={{marginLeft:'620px'}}></Heart></h1>
+                    <span className='haleem_ratings mt-2'>4.0</span>&nbsp;&nbsp;<Star></Star>   <Star></Star>   <Star></Star>    <Star></Star>    <Star></Star>
+                    <p className='mt-3'> <GeoAlt></GeoAlt> Mumbai, Maharashtra</p>
                     {/* <button className='hos-button' style={{ marginBottom: '5px', cursor: 'pointer' }}>Hospitals</button> */}
                     <br />
-                    <button className='shownumber-1' style={{ backgroundColor: 'green', color: 'aliceblue', cursor: 'pointer' }}>
-                        <b>Show Number</b>
-                    </button>
-                    <button className='bookappointment-1' style={{ backgroundColor: 'blue', color: 'white', cursor: 'pointer' }}>
-                        <b>Book Appointment</b>
-                    </button>
-                    <button className='check-1' style={{ backgroundColor: 'white', color: 'black', cursor: 'pointer' }}>Chat</button>
+                    <button className='shownumber-1' style={{ backgroundColor: '#6ad4cf', color: 'white', cursor: 'pointer' ,border:'none',padding:'5px',borderRadius:'5px' }}>
+                        <b> <Telephone></Telephone> Show Number</b>
+                    </button>&nbsp;
+                    <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
+                        <b><Table></Table> Book Table</b>
+                    </button>&nbsp;
+                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}><Chat></Chat> Chat</button>
                 </div>
             </div>
             <br></br>
@@ -65,20 +62,17 @@ export function BiryaniComponent() {
                     <img className="image-1" src={biryani2} width="300px" height="200px" alt="Dubai" />
                 </div>
                 <div className="text">
-                    <h1>Grand Hotel </h1>
-                    <p style={{ cursor: 'pointer' }}>
-                        <b>Trust</b> <a href="#">Verified</a> <button className='top-search' style={{ cursor: 'pointer' }}>Top Search</button>
-                    </p>
-                    <p>village Navi duabi Vashi, Navi dubai.<b>"Immediate availability"</b> 10 suggestions</p>
+                    <h1>Grand Hotel <Heart style={{marginLeft:'550px'}}></Heart></h1><span className='haleem_ratings mt-2'>4.0</span>&nbsp;&nbsp;<Star></Star>   <Star></Star>   <Star></Star>   <Star></Star>   <Star></Star>
+                    <p className='mt-3'> <GeoAlt></GeoAlt> Mumbai, Maharashtra</p>
                     {/* <button className='hos-button' style={{ marginBottom: '5px', cursor: 'pointer' }}>Hospitals</button> */}
                     <br />
-                    <button className='shownumber-1' style={{ backgroundColor: 'green', color: 'aliceblue', cursor: 'pointer' }}>
-                        <b>Show Number</b>
-                    </button>
-                    <button className='bookappointment-1' style={{ backgroundColor: 'blue', color: 'white', cursor: 'pointer' }}>
-                        <b>Book Appointment</b>
-                    </button>
-                    <button className='check-1' style={{ backgroundColor: 'white', color: 'black', cursor: 'pointer' }}>Chat</button>
+                    <button className='shownumber-1' style={{ backgroundColor: '#6ad4cf', color: 'white', cursor: 'pointer' ,border:'none',padding:'5px',borderRadius:'5px' }}>
+                        <b> <Telephone></Telephone> Show Number</b>
+                    </button>&nbsp;
+                    <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
+                        <b><Table></Table> Book Table</b>
+                    </button>&nbsp;
+                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}><Chat></Chat> Chat</button>
                 </div>
             </div>
             <br></br>
@@ -87,20 +81,18 @@ export function BiryaniComponent() {
                     <img className="image-1" src={biryani3} width="300px" height="200px" alt="Dubai" />
                 </div>
                 <div className="text">
-                    <h1>Hotel Shadab </h1>
-                    <p style={{ cursor: 'pointer' }}>
-                        <b>Trust</b> <a href="#">Verified</a> <button className='top-search' style={{ cursor: 'pointer' }}>Top Search</button>
-                    </p>
-                    <p>village Navi dubai Vashi, Navi duabi.<b>"Immediate availability"</b> 10 suggestions</p>
+                    <h1>Hotel Shadab <Heart style={{marginLeft:'530px'}}></Heart></h1> 
+                    <span className='haleem_ratings mt-2'>4.0</span>&nbsp;&nbsp;<Star></Star>   <Star></Star>   <Star></Star>   <Star></Star>   <Star></Star>
+                    <p className='mt-3'> <GeoAlt></GeoAlt> Mumbai, Maharashtra</p>
                     {/* <button className='hos-button' style={{ marginBottom: '5px', cursor: 'pointer' }}>Hospitals</button> */}
                     <br />
-                    <button className='shownumber-1' style={{ backgroundColor: 'green', color: 'aliceblue', cursor: 'pointer' }}>
-                        <b>Show Number</b>
-                    </button>
-                    <button className='bookappointment-1' style={{ backgroundColor: 'blue', color: 'white', cursor: 'pointer' }}>
-                        <b>Book Appointment</b>
-                    </button>
-                    <button className='check-1' style={{ backgroundColor: 'white', color: 'black', cursor: 'pointer' }}>Chat</button>
+                    <button className='shownumber-1' style={{ backgroundColor: '#6ad4cf', color: 'white', cursor: 'pointer' ,border:'none',padding:'5px',borderRadius:'5px' }}>
+                        <b> <Telephone></Telephone> Show Number</b>
+                    </button>&nbsp;
+                    <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
+                        <b><Table></Table> Book Table</b>
+                    </button>&nbsp;
+                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}><Chat></Chat> Chat</button>
                 </div>
             </div>
         </div>

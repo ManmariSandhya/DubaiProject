@@ -89,7 +89,7 @@ export function RestaurantMainComponent() {
             <div >
                 <h2 className='hyd_title'>Restaurents In Hyderabad</h2>
                 <div className='hyderabad_restaurent'>
-                    <h4 style={{ marginLeft: '20px' ,textAlign:'center'}}>Browse Hyderabad Famous Food</h4>
+                    
                     <br></br>
                     <Slider {...settings} style={{ marginLeft: '100px' }}>
                         <div>
