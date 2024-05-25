@@ -11,6 +11,7 @@ import tut4 from '../../../assets/images/tut4.jpg';
 
 
 import React from 'react';
+import { Chat, GeoAlt, Star, Table, Telephone } from 'react-bootstrap-icons';
 
 export function SchoolPage() {
     return (
@@ -25,19 +26,17 @@ export function SchoolPage() {
                 </div>
                 <div className="text">
                     <h3 className='roy-head1'>Iris Florets World School</h3>
-                    <p style={{ cursor: 'pointer' }}>
-                        <b>Trust</b> <a href="#">Verified</a> <button className='top-search' style={{ cursor: 'pointer' }}>Top Search</button>
-                    </p>
-                    <p>village Navi Dubai Vashi, Navi Dubai.<b>"Immediate availability"</b> 10 suggestions</p>
+                    <span className='haleem_ratings mt-2'>4.4</span>&nbsp;&nbsp;<Star></Star>   <Star></Star>   <Star></Star>   <Star></Star>   <Star></Star>
+                    <p className='mt-3'> <GeoAlt></GeoAlt> Mumbai, Maharashtra</p>
                     {/* <button className='hos-button' style={{ marginBottom: '5px', cursor: 'pointer' }}>Hospitals</button> */}
                     <br />
-                    <button className='shownumber-1'style={{ backgroundColor: '#6ad4cf', color: 'white', cursor: 'pointer' ,border:'none',padding:'5px',borderRadius:'5px' }}>
-                        <b>Show Number</b>
-                    </button> &nbsp;
-                    <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
-                        <b>Book Appointment</b>
+                    <button className='shownumber-1' style={{ backgroundColor: '#6ad4cf', color: 'white', cursor: 'pointer' ,border:'none',padding:'5px',borderRadius:'5px' }}>
+                        <b> <Telephone></Telephone> Show Number</b>
                     </button>&nbsp;
-                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}>Chat</button>
+                    <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
+                        <b><Table></Table> Book Table</b>
+                    </button>&nbsp;
+                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}><Chat></Chat> Chat</button>
                 </div>
             </div>
             <br></br>
@@ -47,19 +46,17 @@ export function SchoolPage() {
                 </div>
                 <div className="text">
                     <h3>Creamon Buds Montessori House</h3>
-                    <p style={{ cursor: 'pointer' }}>
-                        <b>Trust</b> <a href="#">Verified</a> <button className='top-search' style={{ cursor: 'pointer' }}>Top Search</button>
-                    </p>
-                    <p>village Navi Dubai Vashi, Navi Dubai.<b>"Immediate availability"</b> 10 suggestions</p>
+                    <span className='haleem_ratings mt-2'>4.0</span>&nbsp;&nbsp;<Star></Star>   <Star></Star>   <Star></Star>   <Star></Star>   <Star></Star>
+                    <p className='mt-3'> <GeoAlt></GeoAlt> Mumbai, Maharashtra</p>
                     {/* <button className='hos-button' style={{ marginBottom: '5px', cursor: 'pointer' }}>Hospitals</button> */}
                     <br />
                     <button className='shownumber-1' style={{ backgroundColor: '#6ad4cf', color: 'white', cursor: 'pointer' ,border:'none',padding:'5px',borderRadius:'5px' }}>
-                        <b>Show Number</b>
+                        <b> <Telephone></Telephone> Show Number</b>
                     </button>&nbsp;
                     <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
-                        <b>Book Appointment</b>
+                        <b><Table></Table> Book Table</b>
                     </button>&nbsp;
-                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}>Chat</button>
+                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}><Chat></Chat> Chat</button>
                 </div>
             </div>
             <br></br>
@@ -69,19 +66,17 @@ export function SchoolPage() {
                 </div>
                 <div className="text">
                     <h3>Tnr Excellence Academy </h3>
-                    <p style={{ cursor: 'pointer' }}>
-                        <b>Trust</b> <a href="#">Verified</a> <button className='top-search' style={{ cursor: 'pointer' }}>Top Search</button>
-                    </p>
-                    <p>village Navi duabi Vashi, Navi dubai.<b>"Immediate availability"</b> 10 suggestions</p>
+                    <span className='haleem_ratings mt-2'>4.2</span>&nbsp;&nbsp;<Star></Star>   <Star></Star>   <Star></Star>   <Star></Star>   <Star></Star>
+                    <p className='mt-3'> <GeoAlt></GeoAlt> Mumbai, Maharashtra</p>
                     {/* <button className='hos-button' style={{ marginBottom: '5px', cursor: 'pointer' }}>Hospitals</button> */}
                     <br />
                     <button className='shownumber-1' style={{ backgroundColor: '#6ad4cf', color: 'white', cursor: 'pointer' ,border:'none',padding:'5px',borderRadius:'5px' }}>
-                        <b>Show Number</b>
+                        <b> <Telephone></Telephone> Show Number</b>
                     </button>&nbsp;
                     <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
-                        <b>Book Appointment</b>
+                        <b><Table></Table> Book Table</b>
                     </button>&nbsp;
-                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}>Chat</button>
+                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}><Chat></Chat> Chat</button>
                 </div>
             </div>
             <br></br>
@@ -91,19 +86,18 @@ export function SchoolPage() {
                 </div>
                 <div className="text">
                     <h3>Rao's Innovious International School </h3>
-                    <p style={{ cursor: 'pointer' }}>
-                        <b>Trust</b> <a href="#">Verified</a> <button className='top-search' style={{ cursor: 'pointer' }}>Top Search</button>
-                    </p>
-                    <p>village Navi dubai Vashi, Navi duabi.<b>"Immediate availability"</b> 10 suggestions</p>
+                    <span className='haleem_ratings mt-2'>4.3</span>&nbsp;&nbsp;<Star></Star>   <Star></Star>   <Star></Star>   <Star></Star>   <Star></Star>
+                    <p className='mt-3'> <GeoAlt></GeoAlt> Mumbai, Maharashtra</p>
                     {/* <button className='hos-button' style={{ marginBottom: '5px', cursor: 'pointer' }}>Hospitals</button> */}
                     <br />
                     <button className='shownumber-1' style={{ backgroundColor: '#6ad4cf', color: 'white', cursor: 'pointer' ,border:'none',padding:'5px',borderRadius:'5px' }}>
-                        <b>Show Number</b>
+                        <b> <Telephone></Telephone> Show Number</b>
                     </button>&nbsp;
                     <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
-                        <b>Book Appointment</b>
+                        <b><Table></Table> Book Table</b>
                     </button>&nbsp;
-                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}>Chat</button>
+                    <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}><Chat></Chat> Chat</button>
+                
                 </div>
             </div>
         </div>

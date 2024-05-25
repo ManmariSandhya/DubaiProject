@@ -58,7 +58,7 @@ export function HospitalMainComponent() {
                     <div className='col-4 '>
                         <div className='box-1 bg-white rounded '>
 
-                            <img className='hospital_icon_image' src={hospital_icon4}></img>
+                            <img className='hospital_icon_image' src={hospital_icon4} style={{width:'80px'}}></img>
                             <Link to="/hospitals-services">
                                 <p className='services-heading' style={{color:'GrayText'}}>ENT Hospitals</p>
                             </Link>
@@ -68,7 +68,7 @@ export function HospitalMainComponent() {
                     <div className='col-4 '>
                         <div className='box-1 bg-white rounded '>
 
-                            <img className='hospital_icon_image' src={hospital_icon5}></img>
+                            <img className='hospital_icon_image' src={hospital_icon5} style={{width:'50px'}}></img>
                             <Link to="/hospitals-services">
                                 <p className='services-heading' style={{color:'GrayText'}}>Eyes Hospitals</p>
                             </Link>
