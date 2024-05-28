@@ -6,6 +6,7 @@ const cors = require("cors");
 const router = require("./Routes/router");
 const PORT = process.env.PORT || 6010
 let bookAppointment = require("./models/bookAppointment");
+let bookItem = require("./models/bookitem");
 
 app.use(cors());
 app.use(express.json());
@@ -20,6 +21,17 @@ app.post('/api/bookAppointment', async (req, res) => {
       const newAppontment = new bookAppointment({ firstname, lastname, address,phonenumber,selectyourproblem });
       await newAppontment.save();
       res.status(201).json({ message: 'successfully booked appointment' });
+    } catch (error) {
+      console.error('Error saving review:', error);
+      res.status(500).json({ error: 'Error saving review' });
+    }
+  });
+  app.post('/api/bookItem', async (req, res) => {
+    try {
+      const { firstname, lastname, address,phonenumber,selectyouritem } = req.body;
+      const newItem = new bookItem({ firstname, lastname, address,phonenumber,selectyouritem });
+      await newItem.save();
+      res.status(201).json({ message: 'successfully booked your item' });
     } catch (error) {
       console.error('Error saving review:', error);
       res.status(500).json({ error: 'Error saving review' });

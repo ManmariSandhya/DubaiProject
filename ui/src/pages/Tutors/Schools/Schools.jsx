@@ -34,7 +34,7 @@ export function SchoolPage() {
                         <b> <Telephone></Telephone> Show Number</b>
                     </button>&nbsp;
                     <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
-                        <b><Table></Table> Book Table</b>
+                        <b><Table></Table> Book An Appointment</b>
                     </button>&nbsp;
                     <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}><Chat></Chat> Chat</button>
                 </div>
@@ -54,7 +54,7 @@ export function SchoolPage() {
                         <b> <Telephone></Telephone> Show Number</b>
                     </button>&nbsp;
                     <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
-                        <b><Table></Table> Book Table</b>
+                        <b><Table></Table> Book An Appointment</b>
                     </button>&nbsp;
                     <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}><Chat></Chat> Chat</button>
                 </div>
@@ -74,7 +74,7 @@ export function SchoolPage() {
                         <b> <Telephone></Telephone> Show Number</b>
                     </button>&nbsp;
                     <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
-                        <b><Table></Table> Book Table</b>
+                        <b><Table></Table> Book An Appointment</b>
                     </button>&nbsp;
                     <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}><Chat></Chat> Chat</button>
                 </div>
@@ -94,7 +94,7 @@ export function SchoolPage() {
                         <b> <Telephone></Telephone> Show Number</b>
                     </button>&nbsp;
                     <button className='bookappointment-1' style={{ backgroundColor: '#d4be6a', color: 'white', cursor: 'pointer',border:'none' ,padding:'5px',borderRadius:'5px' }}>
-                        <b><Table></Table> Book Table</b>
+                        <b><Table></Table> Book An Appointment</b>
                     </button>&nbsp;
                     <button className='check-1' style={{ backgroundColor: '#e6ebea', color: 'black', cursor: 'pointer',border:'none',padding:'5px',borderRadius:'5px' }}><Chat></Chat> Chat</button>
                 

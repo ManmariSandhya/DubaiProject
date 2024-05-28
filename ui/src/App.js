@@ -24,6 +24,7 @@ import { BankMainPage } from './pages/Bank/Bank_mainpage/Bank_mainpage';
 import { AtmMainPage } from './pages/ATM/atm_mainpage/atm_mainpage';
 import SBIResponsive from './pages/ATM/sbi_bank/sbi_bank';
 import { MoneySavingComponent } from './pages/Bank/Money_saving/money_saving';
+import { BawarchiBiryaniComponent } from './pages/Reataurant/bawarchi_biryani/bawarchi_biryani';
 
 
 
@@ -55,6 +56,7 @@ function App() {
         <Route path="/bank" element={<BankMainPage></BankMainPage>}></Route>
         <Route path='/atm' element={<AtmMainPage></AtmMainPage>}></Route>
         <Route path="/money_saving" element={<MoneySavingComponent></MoneySavingComponent>}></Route>
+        <Route path='/bawarchi_biryani' element={<BawarchiBiryaniComponent></BawarchiBiryaniComponent>}></Route>
         {/* <Route path='sbi_atm' element={<SBIResponsive></SBIResponsive>}></Route> */}
       </Routes>
       {/* <Footer></Footer> */}
