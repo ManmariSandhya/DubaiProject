@@ -45,7 +45,7 @@
 /* Media Queries */
 @media screen and (max-width: 768px) {
     .hotel_main_container {
-        margin-left: 10px; /* Adjust margin for smaller screens */
+        margin-left: 20px; /* Adjust margin for smaller screens */
         margin-right: 10px;
     }
 

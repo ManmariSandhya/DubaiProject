@@ -16,7 +16,7 @@ export function HotelMainComponent() {
         <div>
             <div className='haleem-main-container'>
                 <div className='row g-3'>
-                    <div className='col-12 col-md-6 col-lg-3 pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3 ' style={{paddingLeft:'34px'}}>
                         
                             <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={hotel1} className="card-img-top" alt="..."></img>
@@ -32,7 +32,7 @@ export function HotelMainComponent() {
                            
                         </div>
                     </div>
-                    <div className='col-12 col-md-6 col-lg-3 pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3' style={{paddingLeft:'34px'}}>
                   
                             <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={hotel2} className="card-img-top" alt="..." style={{ height: '190px' }}></img>
@@ -52,7 +52,7 @@ export function HotelMainComponent() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-12 col-md-6 col-lg-3 pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3 ' style={{paddingLeft:'34px'}}>
                         
                             <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={hotel3} className="card-img-top" alt="..." style={{ height: '190px' }}></img>
@@ -71,7 +71,7 @@ export function HotelMainComponent() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-12 col-md-6 col-lg-3 pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3 ' style={{paddingLeft:'34px'}}>
                         <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={hotel4} className="card-img-top" alt="..."></img>
                                 <div className="card-body">
@@ -89,7 +89,7 @@ export function HotelMainComponent() {
             </div>
             <div className='haleem-main-container1'>
                 <div className='row g-3'>
-                    <div className='col-12 col-md-6 col-lg-3 pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3 ' style={{paddingLeft:'34px'}}>
                         
                             <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={hotel5} className="card-img-top" alt="..." style={{ height: '190px' }}></img>
@@ -107,7 +107,7 @@ export function HotelMainComponent() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-12 col-md-6 col-lg-3 pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3 ' style={{paddingLeft:'34px'}}>
                        
                             <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={hotel6} className="card-img-top" alt="..." style={{ height: '190px' }}></img>
@@ -122,7 +122,7 @@ export function HotelMainComponent() {
                                 </div>
                         </div>
                     </div>
-                    <div className='col-12 col-md-6 col-lg-3 pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3 ' style={{paddingLeft:'34px'}}>
                         
                             <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={hotel7} className="card-img-top" alt="..." style={{ height: '190px' }}></img>
@@ -138,7 +138,7 @@ export function HotelMainComponent() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-12 col-md-6 col-lg-3  pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3 ' style={{paddingLeft:'34px'}}>
                        <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={hotel1} className="card-img-top" alt="..."></img>
                                 <div className="card-body">

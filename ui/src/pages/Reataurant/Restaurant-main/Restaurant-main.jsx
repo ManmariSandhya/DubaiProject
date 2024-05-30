@@ -91,7 +91,7 @@ export function RestaurantMainComponent() {
                 <div className='hyderabad_restaurent'>
                     
                     <br></br>
-                    <Slider {...settings} style={{ marginLeft: '100px' }}>
+                    <Slider {...settings} style={{ marginLeft: '110px' }}>
                         <div>
                             <Link to="/biryani_restaurents" style={{ textDecoration: 'none' }}>
                                 <div className="col-12 col-lg-3 col-md-6 col-sm-12">

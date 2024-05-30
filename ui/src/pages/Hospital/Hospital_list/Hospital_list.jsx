@@ -47,7 +47,7 @@ export function HospitalListComponent() {
       };
     return (
         <div style={{marginTop:'50px',width:'98%'}}>
-            <Slider {...settings} style={{ marginLeft: '100px' }}>
+            <Slider {...settings} style={{ marginLeft: '110px' }}>
                 <div>
                     <Link to="/rainbow_hospital" style={{ textDecoration: 'none' }}>
                         <div className="col-12 col-lg-3 col-md-6 col-sm-12">

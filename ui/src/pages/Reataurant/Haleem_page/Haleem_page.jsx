@@ -10,7 +10,7 @@ export function HaleemComponent() {
         <div>
             <div className='haleem-main-container'>
                 <div className='row g-3'>
-                    <div className='col-12 col-md-6 col-lg-3 pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3' style={{paddingLeft:'34px'}}>
                         
                             <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={haleem1} className="card-img-top" alt="..."></img>
@@ -29,7 +29,7 @@ export function HaleemComponent() {
                            
                         </div>
                     </div>
-                    <div className='col-12 col-md-6 col-lg-3 pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3 ' style={{paddingLeft:'34px'}}>
                   
                             <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={haleem2} className="card-img-top" alt="..." style={{ height: '190px' }}></img>
@@ -49,7 +49,7 @@ export function HaleemComponent() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-12 col-md-6 col-lg-3 pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3' style={{paddingLeft:'34px'}}>
                         
                             <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={haleem3} className="card-img-top" alt="..." style={{ height: '190px' }}></img>
@@ -68,7 +68,7 @@ export function HaleemComponent() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-12 col-md-6 col-lg-3 pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3 ' style={{paddingLeft:'34px'}}>
                         <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={haleem4} className="card-img-top" alt="..."></img>
                                 <div className="card-body">
@@ -89,7 +89,7 @@ export function HaleemComponent() {
             </div>
             <div className='haleem-main-container1'>
                 <div className='row g-3'>
-                    <div className='col-12 col-md-6 col-lg-3 pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3 ' style={{paddingLeft:'34px'}}>
                         
                             <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={haleem3} className="card-img-top" alt="..." style={{ height: '190px' }}></img>
@@ -108,7 +108,7 @@ export function HaleemComponent() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-12 col-md-6 col-lg-3 pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3 ' style={{paddingLeft:'34px'}}>
                        
                             <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={haleem4} className="card-img-top" alt="..." style={{ height: '190px' }}></img>
@@ -126,7 +126,7 @@ export function HaleemComponent() {
                                 </div>
                         </div>
                     </div>
-                    <div className='col-12 col-md-6 col-lg-3 pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3' style={{paddingLeft:'34px'}}>
                         
                             <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={haleem} className="card-img-top" alt="..." style={{ height: '190px' }}></img>
@@ -145,7 +145,7 @@ export function HaleemComponent() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-12 col-md-6 col-lg-3 pl-5'>
+                    <div className='col-12 col-md-6 col-lg-3' style={{paddingLeft:'34px'}}>
                        <div className="card haleem_card" style={{ width: "18rem" }}>
                                 <img src={haleem1} className="card-img-top" alt="..."></img>
                                 <div className="card-body">

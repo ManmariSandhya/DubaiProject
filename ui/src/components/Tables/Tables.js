@@ -29,7 +29,7 @@ const Tables = ({ userdata, deleteUser, userGet, handlePrevious, handleNext, pag
         {userdata.length > 0 ? (
           userdata.map((element, index) => (
             <div key={index} className="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <Card className='shadow' style={{ height: '350px' }}>
+              <Card className='shadow' style={{ height: '350px' ,width:'420px'}}>
 
                 <div className="card-img-container" style={{ height: '55%' }}>
                   <NavLink to={`/userprofile/${element._id}`} >
